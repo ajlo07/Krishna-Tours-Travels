@@ -25,15 +25,8 @@
 
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link href="css/templatemo-pod-talk.css" rel="stylesheet">
-
-    <!--
-
-TemplateMo 584 Pod Talk
-
-https://templatemo.com/tm-584-pod-talk
-
--->
+    <link href="css/krishna-tours-travels.css" rel="stylesheet">
+    
 </head>
 
 <body>
