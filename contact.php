@@ -75,30 +75,31 @@
 
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-floating">
-                                <input type="phone" name="phone" id="phone" pattern="/^+91(7\d|8\d|9\d)\d{9}$/" class="form-control" placeholder="Phone number" required="">
+                                <input type="phone" name="phone" id="phone" pattern="/^+91(7\d|8\d|9\d)\d{9}$/"
+                                    class="form-control" placeholder="Phone number" required="">
 
                                 <label for="floatingInput">Phone number</label>
                             </div>
                         </div>
 
-                            <div class="form-floating">
-                                <textarea class="form-control" id="message" name="message" placeholder="Describe message
+                        <div class="form-floating">
+                            <textarea class="form-control" id="message" name="message" placeholder="Describe message
                                                 here"></textarea>
 
-                                <label for="floatingTextarea">Describe
-                                    message here</label>
-                            </div>
+                            <label for="floatingTextarea">Describe
+                                message here</label>
                         </div>
-
-                        <div class="col-lg-4 col-12 ms-auto">
-                            <button type="submit" onclick="whatsapp();" class="form-control">Send</button>
-                        </div>
-
                     </div>
-                </form>
-            </div>
 
+                    <div class="col-lg-4 col-12 ms-auto">
+                        <button type="submit" onclick="whatsapp();" class="form-control">Send</button>
+                    </div>
+
+            </div>
+            </form>
         </div>
+
+    </div>
     </div>
 </section>
 </main>

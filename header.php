@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <link href="css/krishna-tours-travels.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -49,7 +49,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="destination.php">Destinations</a>
