@@ -84,6 +84,35 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    function whatsapp() {
+        var name = document.getElementById("fullname").value;
+        var email = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+
+        var url = "https://wa.me/+918320903662?text="
+            + "*Name :* " + name + "%0a"
+            + "*Email :* " + email + "%0a"
+            + "*Message :* " + message;
+
+        window.open(url, '_blank').focus();
+    }
+    function myFunction()) {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
 
 </body>
 

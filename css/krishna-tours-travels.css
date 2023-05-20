@@ -517,7 +517,7 @@ main {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 30px;
+  padding: 10px;
 }
 
 .badge {
@@ -540,8 +540,8 @@ main {
   opacity: 0;
   transition: all 0.3s ease;
   transform: translateX(0);
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 1 0px;
 }
 
 .owl-carousel .owl-item.active.center .owl-carousel-info-wrap:hover .social-icon,
@@ -610,6 +610,8 @@ main {
   padding-bottom: 0;
 }
 
+#more {display: none;}
+
 .custom-block-image-wrap {
   position: relative;
   display: block;
@@ -623,8 +625,8 @@ main {
 .custom-block-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 112px;
-  height: 112px;
+  /* width: 112px;
+  height: 112px; */
   object-fit: cover;
 }
 

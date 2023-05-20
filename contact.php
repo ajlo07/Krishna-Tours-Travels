@@ -3,12 +3,9 @@
                 align-items-center">
     <div class="container">
         <div class="row">
-
             <div class="col-lg-12 col-12 text-center">
-
                 <h2 class="mb-0">Contact Us</h2>
             </div>
-
         </div>
     </div>
 </header>
@@ -17,22 +14,18 @@
 <section class="section-padding" id="section_2">
     <div class="container">
         <div class="row justify-content-center">
-
             <div class="col-lg-5 col-12 pe-lg-5">
                 <div class="contact-info">
                     <h3 class="mb-4">We love to help you. Get in
                         touch</h3>
-
                     <p class="d-flex border-bottom pb-3 mb-4">
                         <strong class="d-inline me-4">Phone:</strong>
                         <span>010-020-0340</span>
                     </p>
-
                     <p class="d-flex border-bottom pb-3 mb-4">
                         <strong class="d-inline me-4">Email:</strong>
                         <a href="#">inquiry@pod.co</a>
                     </p>
-
                     <p class="d-flex">
                         <strong class="d-inline me-4">Location:</strong>
                         <span>1355 Market Street, Downtown San
@@ -47,7 +40,6 @@
                     width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
         </div>
     </div>
 </section>
@@ -55,12 +47,10 @@
 <section class="contact-section section-padding pt-0">
     <div class="container">
         <div class="row">
-
             <div class="col-lg-8 col-12 mx-auto">
                 <div class="section-title-wrap mb-5">
                     <h4 class="section-title">You know, Contact Form</h4>
                 </div>
-
                 <form action="#" method="post" class="custom-form
                                 contact-form" role="form">
                     <div class="row">
@@ -68,7 +58,6 @@
                             <div class="form-floating">
                                 <input type="text" name="full-name" id="fullname" class="form-control"
                                     placeholder="Full Name" required="">
-
                                 <label for="floatingInput">Full Name</label>
                             </div>
                         </div>
@@ -76,8 +65,7 @@
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-floating">
                                 <input type="phone" name="phone" id="phone" pattern="/^+91(7\d|8\d|9\d)\d{9}$/"
-                                    class="form-control" placeholder="Phone number" required="">
-
+                                    class="form-control" placeholder="Phone number" required="" inputmode="numeric">
                                 <label for="floatingInput">Phone number</label>
                             </div>
                         </div>
@@ -85,36 +73,18 @@
                         <div class="form-floating">
                             <textarea class="form-control" id="message" name="message" placeholder="Describe message
                                                 here"></textarea>
-
                             <label for="floatingTextarea">Describe
                                 message here</label>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-12 ms-auto">
                         <button type="submit" onclick="whatsapp();" class="form-control">Send</button>
                     </div>
-
             </div>
             </form>
         </div>
-
     </div>
     </div>
 </section>
 </main>
-<script>
-    function whatsapp() {
-        var name = document.getElementById("fullname").value;
-        var email = document.getElementById("phone").value;
-        var message = document.getElementById("message").value;
-
-        var url = "https://wa.me/+918320903662?text="
-            + "*Name :* " + name + "%0a"
-            + "*Email :* " + email + "%0a"
-            + "*Message :* " + message;
-
-        window.open(url, '_blank').focus();
-    }
-</script>
 <?php include "footer.php" ?>
