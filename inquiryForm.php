@@ -16,11 +16,7 @@
         cursor: pointer;
     }
 </style>
-<script>
-    $(function () {
-        $('#datepicker').datepicker();
-    });
-</script>
+
 <main>
     <section class="contact-section section-padding pt-0">
         <div class="container">
@@ -48,7 +44,7 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
                                     <div class="form-group">
-                                        <select class="form-control" id="sel1" placeholder="Select Vehical" required="">
+                                        <select class="form-control" id="selectCar" placeholder="Select Vehical" required="">
                                             <option for="floatingInput">Select Vehical</option>
                                             <option>Aura</option>
                                             <option>Brezza</option>
@@ -70,7 +66,7 @@
 
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" id="pickUpDate" name="pickUpDate"
+                                    <input type="date" class="form-control" id="rerturnUpDate" name="pickUpDate"
                                         required="">
                                     <label for="floatingInput">Return Date</label>
                                 </div>
@@ -79,7 +75,7 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
                                     <div class="form-group">
-                                        <select class="form-control" id="Pickup Location" placeholder="Pickup Location"
+                                        <select class="form-control" id="PickupLocation" placeholder="Pickup Location"
                                             required="">
                                             <option for="floatingInput">Pickup Location</option>
                                             <option>Rajkot Airport</option>
@@ -92,7 +88,7 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
                                     <div class="form-group">
-                                        <select class="form-control" id="Pickup Location"
+                                        <select class="form-control" id="destination"
                                             placeholder="Destination Location" required="">
                                             <option for="floatingInput">Destination Location</option>
                                             <option>Ahemdabad</option>
@@ -131,7 +127,7 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
                                     <div class="form-group">
-                                        <select class="form-control" id="sel1" placeholder="Select Vehical" required="">
+                                        <select class="form-control" id="numberOfPerson" placeholder="Select Vehical" required="">
                                             <option for="floatingInput">Number of Person</option>
                                             <option>1</option>
                                             <option>2</option>
@@ -147,10 +143,10 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-floating">
                                     <div class="radio-inline">
-                                        <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                        <input type="radio" class="form-check-input" id="oneWay" name="optradio"
                                             value="option1" checked> One Way Trip
                                         <label class="form-check-label" for="radio1"></label>
-                                        <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                        <input type="radio" class="form-check-input" id="return" name="optradio"
                                             value="option2"> Round Trip
                                         <label class="form-check-label" for="radio2"></label>
                                     </div>
@@ -165,7 +161,7 @@
                                         message here</label>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-12">
                                 <button type="submit" onclick="whatsapp();" class="form-control">Send</button>
                             </div>
@@ -176,5 +172,38 @@
         </div>
     </section>
 </main>
+<script>
+
+    $(function () {
+        $('#datepicker').datepicker();
+    });
+    function whatsapp() {
+        var name = document.getElementById("fullname").value;
+        var phone = document.getElementById("phone").value;
+        var selectCar = document.getElementById("selectCar").value;
+        var pickUpDate = document.getElementById("pickUpDate").value;
+        var dropDate = document.getElementById("rerturnUpDate").value;
+        var pickUpLocation = document.getElementById("PickupLocation").value;
+        var destinationLocation = document.getElementById("destination").value;
+        var numberOfPerson = document.getElementById("numberOfPerson").value;
+        var tripType = document.getElementById("oneWay").value;
+        var message = document.getElementById("message").value;
+
+        var url = "https://wa.me/+918320903662?text="
+            + "*Name :* " + name + "%0a"
+            + "*Phone :* " + phone + "%0a"
+            + "*Car :* " + selectCar;
+            + "*pickup :* " + pickUpDate;
+            + "*return :* " + dropDate;
+            + "*location :* " + pickUpLocation;
+            + "*destination :* " + destinationLocation;
+            + "*numberOfPerson :* " + numberOfPerson;
+            + "*tripType :* " + tripType;
+            + "*Message :* " + message;
+
+
+        window.open(url, '_blank').focus();
+    }
+</script>
 
 <?php include "footer.php"; ?>
