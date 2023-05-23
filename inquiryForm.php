@@ -192,13 +192,13 @@
         var url = "https://wa.me/+918320903662?text="
             + "*Name :* " + name + "%0a"
             + "*Phone :* " + phone + "%0a"
-            + "*Car :* " + selectCar;
-            + "*pickup :* " + pickUpDate;
-            + "*return :* " + dropDate;
-            + "*location :* " + pickUpLocation;
-            + "*destination :* " + destinationLocation;
-            + "*numberOfPerson :* " + numberOfPerson;
-            + "*tripType :* " + tripType;
+            + "*Car :* " + selectCar
+            + "*pickup :* " + pickUpDate
+            + "*return :* " + dropDate
+            + "*location :* " + pickUpLocation
+            + "*destination :* " + destinationLocation
+            + "*numberOfPerson :* " + numberOfPerson
+            + "*tripType :* " + tripType
             + "*Message :* " + message;
 
 
