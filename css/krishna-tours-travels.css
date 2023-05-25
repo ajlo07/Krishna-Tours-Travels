@@ -240,7 +240,7 @@ main {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: url('../images/templatemo-wave-header.jpg'), linear-gradient(#348CD2, #FFFFFF);;
+  background-image: url('../images/header.png'), linear-gradient(#aaaaaa, #FFFFFF);;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -466,7 +466,7 @@ main {
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/templatemo-wave-banner.jpg'), linear-gradient(#101010, #FFFFFF);
+  background-image: url('../images/header.png'), linear-gradient(#101010, #FFFFFF);
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
@@ -996,7 +996,7 @@ main {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/templatemo-wave-footer.jpg'), linear-gradient(#FFFFFF, #348CD2);
+  background-image: url('../images/footer.png'), linear-gradient(#FFFFFF, #348CD2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
