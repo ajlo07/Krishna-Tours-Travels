@@ -789,7 +789,7 @@ main {
 }
 
 .profile-block-image {
-  border-radius: var(--border-radius-large);
+  border-radius: var(0);
   width: 50px;
   height: 50px;
   object-fit: cover;
