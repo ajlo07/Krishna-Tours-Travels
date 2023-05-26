@@ -32,7 +32,7 @@
                             Aura
                         </h4>
                         <!-- <span class="badge">Modeling</span> -->
-                        <p> this is aura</p>
+                        <p> Krishna Cab Service</p>
                     </div>
                     <div class="social-share">
                         <ul class="social-icon">
@@ -56,7 +56,7 @@
                         <h4 class="mb-2">
                         Brezza
                         </h4>
-                        <p> this is Brezza</p>
+                        <p> Krishna Cab Service</p>
                         <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
@@ -81,7 +81,7 @@
                         <h4 class="mb-2">
                             Innova
                         </h4>
-                        <p> this is Innova</p>
+                        <p> Krishna Cab Service</p>
                         <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
@@ -107,14 +107,14 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/aura.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/tempo.jpg" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
-                            Aura
+                            Tempo Traveller
                         </h4>
                         <!-- <span class="badge">Modeling</span> -->
-                        <p> this is aura</p>
+                        <p> Krishna Cab Service</p>
                     </div>
                     <div class="social-share">
                         <ul class="social-icon">
@@ -132,13 +132,13 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/breza.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/Ertiga.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
-                        Brezza
+                        Ertiga
                         </h4>
-                        <p> this is Brezza</p>
+                        <p>Krishna Cab Service</p>
                         <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
@@ -157,13 +157,13 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/innova.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/bus.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
-                            Innova
+                            Bus
                         </h4>
-                        <p> this is Innova</p>
+                        <p> Krishna Cab Service</p>
                         <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
