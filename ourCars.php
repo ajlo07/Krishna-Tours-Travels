@@ -105,7 +105,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/tempo.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/tempo.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
