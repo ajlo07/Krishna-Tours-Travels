@@ -36,9 +36,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand me-lg-5 me-0" href="index.html">
-                    <!-- <img src="images/pod-talk-logo.png" class="logo-image
-                            img-fluid" alt="templatemo pod talk"> -->
-                    <h1>Krishna</h1>
+                    <img src="images/krishna_logo.png" class="logo-image
+                            img-fluid" alt="krishna tours travels">
+                    <!-- <h1>Krishna</h1> -->
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

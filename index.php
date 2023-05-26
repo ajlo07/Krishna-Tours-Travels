@@ -306,94 +306,179 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-</section>
-
-<section class="latest-podcast-section section-padding pb-0" id="section_2">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="section-title-wrap mb-5">
-                <h4 class="section-title">write title</h4>
+    </secion>
+    <section class="latest-podcast-section section-padding pb-0" id="section_2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="team-thumb bg-white shadow-lg">
+                        <img src="images/profile/Car/tempo.jpg" class="about-image img-fluid" alt="">
+                        <div class="team-info">
+                            <h4 class="mb-2">
+                                Tempo Bus
+                            </h4>
+                            <p> this is Innova</p>
+                            <!-- <span class="badge">Modeling</span> -->
+                        </div>
+                        <div class="social-share">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="inquiryForm.php" class="social-icon-link
+                                bi-whatsapp"></a>
+                                </li>
+                                <li class="social-icon-item">
+                                    <a href="tel:8320903662" class="social-icon-link
+                                                bi-phone"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="team-thumb bg-white shadow-lg">
+                        <img src="images/profile/Car/swift.jpg" class="about-image img-fluid" alt="">
+                        <div class="team-info">
+                            <h4 class="mb-2">
+                                Swift Dezire
+                            </h4>
+                            <p> this is Innova</p>
+                            <!-- <span class="badge">Modeling</span> -->
+                        </div>
+                        <div class="social-share">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="inquiryForm.php" class="social-icon-link
+                                bi-whatsapp"></a>
+                                </li>
+                                <li class="social-icon-item">
+                                    <a href="tel:8320903662" class="social-icon-link
+                                                bi-phone"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="team-thumb bg-white shadow-lg">
+                        <img src="images/profile/Car/bus.png" class="about-image img-fluid" alt="">
+                        <div class="team-info">
+                            <h4 class="mb-2">
+                                Bus
+                            </h4>
+                            <p> this is Innova</p>
+                            <!-- <span class="badge">Modeling</span> -->
+                        </div>
+                        <div class="social-share">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="inquiryForm.php" class="social-icon-link
+                                bi-whatsapp"></a>
+                                </li>
+                                <li class="social-icon-item">
+                                    <a href="tel:8320903662" class="social-icon-link
+                                                bi-phone"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-12">
-                    <div class="custom-block-info">
-                        <div class="d-flex
+        </div>
+    </section>
+
+    <section class="latest-podcast-section section-padding pb-0" id="section_2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title-wrap mb-5">
+                    <h4 class="section-title">write title</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="custom-block-info">
+                            <div class="d-flex
                                             flex-wrap align-items-center mt-5">
-                            <div class="d-flex mb-3 mb-lg-0
+                                <div class="d-flex mb-3 mb-lg-0
                                                 mb-md-0">
-                                <img src="images/profile/best_package.png" class="profile-block-image
+                                    <img src="images/profile/best_package.png" class="profile-block-image
                                                     img-fluid" alt="">
-                                <p>
-                                    <strong>Best Package</strong><br>
-                                    Welcome to Krushna Tours and Travels, the top tours and travels agency in Rajkot!
-                                    With a passion for wanderlust and a commitment to exceptional service, we specialize
-                                    in creating personalized and immersive journeys that cater to all your travel
-                                    desires
-                                </p>
+                                    <p>
+                                        <strong>Best Package</strong><br>
+                                        Welcome to Krushna Tours and Travels, the top tours and travels agency in
+                                        Rajkot!
+                                        With a passion for wanderlust and a commitment to exceptional service, we
+                                        specialize
+                                        in creating personalized and immersive journeys that cater to all your travel
+                                        desires
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-12">
-                    <div class="custom-block-info">
-                        <div class="d-flex
+                    <div class="col-lg-12 col-12">
+                        <div class="custom-block-info">
+                            <div class="d-flex
                                             flex-wrap align-items-center mt-5">
-                            <div class="d-flex mb-3 mb-lg-0
+                                <div class="d-flex mb-3 mb-lg-0
                                                 mb-md-0">
-                                <img src="images/profile/Book.png" class="profile-block-image
+                                    <img src="images/profile/Book.png" class="profile-block-image
                                                     img-fluid" alt="">
-                                <p>
-                                    <strong>Book</strong><br>
-                                    Welcome to Krushna Tours and Travels, the top tours and travels agency in Rajkot!
-                                    With a passion for wanderlust and a commitment to exceptional service, we specialize
-                                    in creating personalized and immersive journeys that cater to all your travel
-                                    desires
-                                </p>
+                                    <p>
+                                        <strong>Book</strong><br>
+                                        Welcome to Krushna Tours and Travels, the top tours and travels agency in
+                                        Rajkot!
+                                        With a passion for wanderlust and a commitment to exceptional service, we
+                                        specialize
+                                        in creating personalized and immersive journeys that cater to all your travel
+                                        desires
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-12">
-                    <div class="custom-block-info">
-                        <div class="d-flex
+                    <div class="col-lg-12 col-12">
+                        <div class="custom-block-info">
+                            <div class="d-flex
                                             flex-wrap align-items-center mt-5">
-                            <div class="d-flex mb-3 mb-lg-0
+                                <div class="d-flex mb-3 mb-lg-0
                                                 mb-md-0">
-                                <img src="images/profile/price.png" class="profile-block-image
+                                    <img src="images/profile/price.png" class="profile-block-image
                                                     img-fluid" alt="">
-                                <p>
-                                    <strong>Price</strong><br>
-                                    Welcome to Krushna Tours and Travels, the top tours and travels agency in Rajkot!
-                                    With a passion for wanderlust and a commitment to exceptional service, we specialize
-                                    in creating personalized and immersive journeys that cater to all your travel
-                                    desires
-                                </p>
+                                    <p>
+                                        <strong>Price</strong><br>
+                                        Welcome to Krushna Tours and Travels, the top tours and travels agency in
+                                        Rajkot!
+                                        With a passion for wanderlust and a commitment to exceptional service, we
+                                        specialize
+                                        in creating personalized and immersive journeys that cater to all your travel
+                                        desires
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-12">
-                    <div class="custom-block-info">
-                        <div class="d-flex
+                    <div class="col-lg-12 col-12">
+                        <div class="custom-block-info">
+                            <div class="d-flex
                                             flex-wrap align-items-center mt-5">
-                            <div class="d-flex mb-3 mb-lg-0
+                                <div class="d-flex mb-3 mb-lg-0
                                                 mb-md-0">
-                                <img src="images/profile/taxi.png" class="profile-block-image
+                                    <img src="images/profile/taxi.png" class="profile-block-image
                                                     img-fluid" alt="">
-                                <p>
-                                    <strong>Taxi</strong><br>
-                                    Welcome to Krushna Tours and Travels, the top tours and travels agency in Rajkot!
-                                    With a passion for wanderlust and a commitment to exceptional service, we specialize
-                                    in creating personalized and immersive journeys that cater to all your travel
-                                    desires
-                                </p>
+                                    <p>
+                                        <strong>Taxi</strong><br>
+                                        Welcome to Krushna Tours and Travels, the top tours and travels agency in
+                                        Rajkot!
+                                        With a passion for wanderlust and a commitment to exceptional service, we
+                                        specialize
+                                        in creating personalized and immersive journeys that cater to all your travel
+                                        desires
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     <div class="col-lg-12 col-12">
                         <div class="custom-block-info">
                             <div class="d-flex
@@ -413,10 +498,10 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
 
 
-</main>
+    </main>
 
-<?php include "footer.php" ?>
+    <?php include "footer.php" ?>

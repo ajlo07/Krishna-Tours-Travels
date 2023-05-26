@@ -57,7 +57,6 @@
                         Brezza
                         </h4>
                         <p> Krishna Cab Service</p>
-                        <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
                         <ul class="social-icon">
@@ -82,7 +81,6 @@
                             Innova
                         </h4>
                         <p> Krishna Cab Service</p>
-                        <!-- <span class="badge">Modeling</span> -->
                     </div>
                     <div class="social-share">
                         <ul class="social-icon">

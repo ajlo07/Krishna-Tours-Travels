@@ -273,12 +273,12 @@ main {
 }
 
 .navbar .logo-image {
-  width: 100px;
+  width: 240px;
 }
 
-.logo-image {
-  width: 120px;
-  height: auto;
+.navbar .logo-image {
+  width: 240px;
+  height: 180px;
 }
 
 .navbar-brand,
