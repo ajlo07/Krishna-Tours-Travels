@@ -25,7 +25,7 @@
 
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/aura.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/aura.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
@@ -50,7 +50,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/breza.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/breza.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
@@ -75,7 +75,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="team-thumb bg-white shadow-lg">
-                    <img src="images/profile/Car/innova.jpg" class="about-image img-fluid"
+                    <img src="images/profile/Car/innova.png" class="about-image img-fluid"
                         alt="">
                     <div class="team-info">
                         <h4 class="mb-2">
