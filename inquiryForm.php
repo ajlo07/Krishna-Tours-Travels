@@ -186,19 +186,19 @@
         var pickUpLocation = document.getElementById("PickupLocation").value;
         var destinationLocation = document.getElementById("destination").value;
         var numberOfPerson = document.getElementById("numberOfPerson").value;
-        var tripType = document.getElementById("oneWay").value;
+        var tripType = document.getElementById("oneWay").checked ? "One Way" : "Round Trip";
         var message = document.getElementById("message").value;
 
         var url = "https://wa.me/+918320903662?text="
             + "*Name :* " + name + "%0a"
             + "*Phone :* " + phone + "%0a"
-            + "*Car :* " + selectCar
-            + "*pickup :* " + pickUpDate
-            + "*return :* " + dropDate
-            + "*location :* " + pickUpLocation
-            + "*destination :* " + destinationLocation
-            + "*numberOfPerson :* " + numberOfPerson
-            + "*tripType :* " + tripType
+            + "*Car :* " + selectCar + "%0a"
+            + "*pickup :* " + pickUpDate + "%0a"
+            + "*return :* " + dropDate + "%0a"
+            + "*location :* " + pickUpLocation + "%0a"
+            + "*destination :* " + destinationLocation + "%0a"
+            + "*numberOfPerson :* " + numberOfPerson + "%0a"
+            + "*tripType :* " + tripType + "%0a"
             + "*Message :* " + message;
 
 
